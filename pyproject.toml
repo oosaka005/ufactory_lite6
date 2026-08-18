@@ -3,9 +3,9 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "robot-arm-api"
+name = "ufactory-lite6"
 version = "0.1.0"
-description = "Safe Lite6 robot arm API for the formulation cell"
+description = "UFACTORY Lite6 robot control for the formulation cell"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
@@ -28,4 +28,3 @@ testpaths = ["tests"]
 [tool.ruff]
 target-version = "py311"
 line-length = 100
-
