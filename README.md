@@ -1,17 +1,18 @@
-# ufactory-lite6
+> [!NOTE]
+> このリポジトリの現在のコード内容は、Renatoが共有してくれた
+> [`Renato-D/Lite6XArm`](https://github.com/Renato-D/Lite6XArm) の
+> commit [`f5751d5`](https://github.com/Renato-D/Lite6XArm/commit/f5751d55bfbb466fb3f87abfddf4145bacee1edf) を、
+> この注記を除いてそのまま保持した共有用コピーです。今後、このコードをベースにしつつ、
+> `oosaka005`独自のコードを作成していく予定です。
 
-UFACTORY Lite6を安全に操作するための独立コンポーネントです。
+# Lite6XArm
 
-同僚版の `Lite6XArm` は `../../reference/Lite6XArm` に参照用として保持し、
-このリポジトリでは接続、状態確認、移動、グリッパー操作、停止処理をAPIとして整理します。
+Starter Python 3.11 project workspace for Lite6 XArm development.
 
-## 方針
+This project focuses on control of a UFactory Lite 6 Robotic Arm, to move a microplate from an OpenTron Liquid handler into a microplate reader. 
 
-- Python 3.11を使用する
-- IPアドレスや動作範囲はコードへ直接書かず、ローカル設定から読み込む
-- 実機移動は状態確認、範囲検証、dry-run確認を通過した場合だけ許可する
-- Formulation Cell固有のシーケンスはこのリポジトリに入れない
+## Quick start
 
-## 現在の状態
-
-初期スキャフォールドです。実機制御APIは、参照版の動作確認後に段階的に実装します。
+1. Create/activate virtual environment.
+2. Install dependencies with `pip install -r requirements.txt`.
+3. Run `python main.py`.
