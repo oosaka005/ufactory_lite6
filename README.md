@@ -1,9 +1,9 @@
 > [!NOTE]
-> このリポジトリの現在のコード内容は、Renatoが共有してくれた
-> [`Renato-D/Lite6XArm`](https://github.com/Renato-D/Lite6XArm) の
-> commit [`f5751d5`](https://github.com/Renato-D/Lite6XArm/commit/f5751d55bfbb466fb3f87abfddf4145bacee1edf) を、
-> この注記を除いてそのまま保持した共有用コピーです。今後、このコードをベースにしつつ、
-> `oosaka005`独自のコードを作成していく予定です。
+> The current code in this repository is an unchanged copy of
+> [`Renato-D/Lite6XArm`](https://github.com/Renato-D/Lite6XArm) at
+> commit [`f5751d5`](https://github.com/Renato-D/Lite6XArm/commit/f5751d55bfbb466fb3f87abfddf4145bacee1edf),
+> shared by Renato. This repository is intended for sharing and reference. We plan to
+> develop original code based on this codebase in the future.
 
 # Lite6XArm
 
